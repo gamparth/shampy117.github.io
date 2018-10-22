@@ -2,6 +2,14 @@ $(document).ready(function() {
   $('i').hide();
 })
 
+//setting timeout function 
+setTimeout(function() {
+    $('#mail').animate({
+      top: mailPos.top,
+      left: mailPos.left
+    }, 250);
+  }, 2000);
+
 $(window).load(function() {
   $('i').show();
 
